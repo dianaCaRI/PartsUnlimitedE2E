@@ -1,10 +1,12 @@
-﻿using System;
+using System;
 using System.ComponentModel.DataAnnotations;
 
 namespace PartsUnlimited.Models
 {
     public class CartItem : ILineItem
     {
+
+        ///// My First change 
         [Key]
         public int CartItemId { get; set; }
 
